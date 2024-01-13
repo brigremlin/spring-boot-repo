@@ -4,7 +4,7 @@ COPY .mvn/ .mvn
 COPY mvnw pom.xml ./
 RUN ./mvnw dependency:resolve
 
-COPY target/capstone-backend-0.0.1-SNAPSHOT.jar capstone-jar
+COPY target/capstone-backend-0.0.1-SNAPSHOT.jar capstone.jar
 
 EXPOSE 8080
 
