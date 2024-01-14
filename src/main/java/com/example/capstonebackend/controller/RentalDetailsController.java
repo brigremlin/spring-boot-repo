@@ -12,7 +12,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-@CrossOrigin(origins = "https://video-rush-front-end.web.app/")
+@CrossOrigin
 @RestController
 public class RentalDetailsController {
 

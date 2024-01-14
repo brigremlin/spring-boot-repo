@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@CrossOrigin(origins = "https://video-rush-front-end.web.app/")
+@CrossOrigin
 @RestController
 public class CustomerController {
 
